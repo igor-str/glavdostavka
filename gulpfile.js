@@ -43,7 +43,7 @@ gulp.task('scripts', function() {
 });
 
 gulp.task('css-libs', ['less'], function() {
-    return gulp.src('app/css/libs.css') // Выбираем файл для минификации
+    return gulp.src('app/css/libs.css') // Выбираем файл для минификации !(потом в нужно коретно поставить откуда загружаются css иблиотеки в готовом файле)
         .pipe(cssnano()) // Сжимаем
         .pipe(rename({suffix: '.min'})) // Добавляем суффикс .min
         .pipe(gulp.dest('app/css')); // Выгружаем в папку app/css
@@ -80,6 +80,12 @@ gulp.task('build', ['clean', 'img', 'less', 'scripts'], function() {
 
     var buildFonts = gulp.src('app/fonts/**/*') // Переносим шрифты в продакшен
         .pipe(gulp.dest('dist/fonts'))
+
+    var buildBgImg = gulp.src('app/css/bg-img/**/*') // Переносим фоновые картинки в продакшен !
+        .pipe(gulp.dest('dist//css/bg-img'))
+
+    var buildImg = gulp.src('app/img/**/*') // Переносим изображения в продакшен !
+        .pipe(gulp.dest('dist/img'))
 
     var buildJs = gulp.src('app/js/**/*') // Переносим скрипты в продакшен
         .pipe(gulp.dest('dist/js'))
