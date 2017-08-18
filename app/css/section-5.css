@@ -1,0 +1,76 @@
+.bg-for-section-5 .ddd {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.bg-for-section-5 .ddd h3 {
+  color: #333333;
+  font-weight: 500;
+  font-size: 30px;
+  position: relative;
+  padding: 35px 0 45px 0;
+  margin-bottom: 0;
+}
+.bg-for-section-5 .ddd h3:after {
+  content: '';
+  width: 130px;
+  border: 2px solid #9f1b1b;
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.bg-for-section-5 .ddd .content-wrap-section-5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-align-content: space-between;
+      -ms-flex-line-pack: justify;
+          align-content: space-between;
+}
+.bg-for-section-5 .ddd .content-wrap-section-5 .wrapper-desc-section-5 {
+  background: url("../css/bg-img/bg-01.png") no-repeat left 20px;
+  padding: 80px 0 0 90px;
+}
+.bg-for-section-5 .ddd .content-wrap-section-5 .wrapper-desc-section-5 h4 {
+  color: #333333;
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+.bg-for-section-5 .ddd .content-wrap-section-5 .wrapper-desc-section-5 h4 span {
+  color: #9f1b1b;
+}
+.bg-for-section-5 .ddd .content-wrap-section-5 .wrapper-desc-section-5 p {
+  font-size: 18px;
+  line-height: 24px;
+}
+.bg-for-section-5 .ddd .content-wrap-section-5 .wrapper-desc-section-5 p span {
+  font-weight: 700;
+}
+.slider-left {
+  background: url("../css/bg-img/slider-left.png") no-repeat;
+  width: 15px;
+  height: 54px;
+  margin-left: -100%;
+}
+.slider-right {
+  background: url("../css/bg-img/slider-right.png") no-repeat;
+  width: 15px;
+  height: 54px;
+  margin-right: -100%;
+}

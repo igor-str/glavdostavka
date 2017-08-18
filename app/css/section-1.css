@@ -1,0 +1,235 @@
+.bg-for-section-1 {
+  background-image: url("../css/bg-img/bg-glavn-ekran.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  height: 500px;
+  width: auto;
+}
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  color: #f9f9f9;
+  padding-top: 45px;
+  margin-bottom: 15px;
+}
+.desc-h1 {
+  text-align: center;
+  line-height: 24px;
+  margin: 0;
+  color: #f9f9f9;
+  padding: 0 23%;
+}
+.wrapper-form-section-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-content: space-between;
+      -ms-flex-line-pack: justify;
+          align-content: space-between;
+  margin-top: 50px;
+}
+.wrapper-form-section-1 .search-cargo-wrap {
+  background: url('../css/bg-img/small-border.png') no-repeat top;
+  padding: 35px 2rem 0 2rem;
+  position: relative;
+}
+.wrapper-form-section-1 .search-cargo-wrap .search-cargo-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-align-content: space-between;
+      -ms-flex-line-pack: justify;
+          align-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.wrapper-form-section-1 .search-cargo-wrap .search-cargo-box input {
+  background-color: #fff;
+  color: #555555;
+  -webkit-border-radius: 50px;
+          border-radius: 50px;
+  font-size: 13px;
+  height: 45px;
+  text-align: center;
+  width: 225px;
+}
+.wrapper-form-section-1 .search-cargo-wrap .search-cargo-box label {
+  color: #fff;
+  font-size: 13px;
+  text-align: center;
+  line-height: 24px;
+}
+.wrapper-form-section-1 .search-cargo-wrap .search-cargo-box button {
+  background-color: transparent;
+  color: #fff;
+  border: solid 1px #fff;
+  -webkit-border-radius: 50px;
+          border-radius: 50px;
+  font-size: 16px;
+  height: 55px;
+  text-align: center;
+  width: 250px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.wrapper-form-section-1 .search-cargo-wrap .search-cargo-box button:hover {
+  background-color: #9f1b1b;
+  color: #fff;
+  border: solid 1px #9f1b1b;
+}
+.wrapper-form-section-1 .search-cargo-wrap h3 {
+  position: absolute;
+  top: -1rem;
+  left: 0;
+  right: 0;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0 15px;
+}
+.wrapper-form-section-1 .calc-price {
+  background: url('../css/bg-img/big-border-1.png') no-repeat top;
+  padding: 50px 2rem 0 2rem;
+}
+.wrapper-form-section-1 .calc-price h3 {
+  position: absolute;
+  top: -1rem;
+  left: 0;
+  right: 0;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0 15px;
+}
+.wrapper-form-section-1 .calc-price .form-calc-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-align-content: space-around;
+      -ms-flex-line-pack: distribute;
+          align-content: space-around;
+}
+.wrapper-form-section-1 .calc-price .form-calc-box .wrapper-form-carry {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-align-content: space-between;
+      -ms-flex-line-pack: justify;
+          align-content: space-between;
+}
+.wrapper-form-section-1 .calc-price .form-calc-box .wrapper-form-carry input {
+  background: url("../css/bg-img/bg-town.png") no-repeat 10px #fff;
+  padding-left: 20px;
+  color: #555555;
+  -webkit-border-radius: 50px;
+          border-radius: 50px;
+  font-size: 13px;
+  height: 45px;
+  text-align: center;
+  width: 310px;
+  margin: 0 5px 0 5px;
+}
+.wrapper-form-section-1 .calc-price .form-calc-box .wrapper-form-carry .change-town {
+  background: url("../css/bg-img/cange-town.png") no-repeat center;
+  width: 14px;
+  height: 17px;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+  margin: 0;
+}
+.wrapper-form-section-1 .calc-price .form-calc-box .wrapper-form-calc {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-content: flex-start;
+      -ms-flex-line-pack: start;
+          align-content: flex-start;
+  margin-top: 30px;
+}
+.wrapper-form-section-1 .calc-price .form-calc-box .wrapper-form-calc input {
+  color: #555555;
+  -webkit-border-radius: 50px;
+          border-radius: 50px;
+  font-size: 13px;
+  height: 45px;
+  text-align: center;
+  width: 110px;
+  margin-left: 5px;
+}
+.wrapper-form-section-1 .calc-price .form-calc-box .wrapper-form-calc .result-calc {
+  line-height: 45px;
+  margin-left: 15px;
+  font-size: 36px;
+  color: #fff;
+}
+.wrapper-form-section-1 .calc-price .form-calc-box .wrapper-form-calc .wrapper-size-cargo {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.wrapper-form-section-1 .calc-price .form-calc-box .wrapper-form-calc .wrapper-size-cargo input {
+  width: 190px;
+  margin-left: 15px;
+}
+.wrapper-form-section-1 .calc-price .form-calc-box .wrapper-form-calc .wrapper-size-cargo label {
+  color: #fff;
+  text-decoration: underline;
+  font-size: 13px;
+  line-height: 24px;
+  margin: 0 0 15px 15px;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+}
+.wrapper-form-section-1 .calc-price button {
+  background-color: #9f1b1b;
+  color: #fff;
+  border: solid 1px #9f1b1b;
+  -webkit-border-radius: 50px;
+          border-radius: 50px;
+  font-size: 16px;
+  height: 55px;
+  text-align: center;
+  width: 250px;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.wrapper-form-section-1 .calc-price button:hover {
+  background-color: #fff;
+  color: #333333;
+}

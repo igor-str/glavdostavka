@@ -1,0 +1,66 @@
+.bg-for-section-4 {
+  background-color: #f9f9f9;
+}
+.wrapper-content-section-4 h3 {
+  color: #333333;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 24px;
+  padding: 50px 0;
+  position: relative;
+  margin-bottom: 0;
+}
+.wrapper-content-section-4 h3:after {
+  content: '';
+  width: 130px;
+  border: 2px solid #9f1b1b;
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.wrapper-content-section-4 label {
+  font-size: 18px;
+  padding-right: 10px;
+}
+.wrapper-content-section-4 input {
+  color: #fff;
+  border: solid 1px #9f1b1b;
+  -webkit-border-radius: 50px;
+          border-radius: 50px;
+  font-size: 18px;
+  height: 55px;
+  min-width: 22rem;
+}
+.wrapper-content-section-4 button {
+  background-color: #9f1b1b;
+  color: #fff;
+  border: solid 1px #9f1b1b;
+  -webkit-border-radius: 50px;
+          border-radius: 50px;
+  font-size: 16px;
+  height: 55px;
+  text-align: center;
+  width: 190px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  font-weight: 400;
+}
+.wrapper-content-section-4 button:hover {
+  background-color: transparent;
+  color: #3f3f3f;
+}
+.wrapper-example-q {
+  font-size: 12px;
+  margin-left: -3rem;
+  padding-bottom: 50px;
+}
+.wrapper-example-q span {
+  -webkit-text-decoration: underline dashed;
+          text-decoration: underline dashed;
+}
+.wrapper-example-q span:nth-child(1) {
+  text-decoration: none;
+}

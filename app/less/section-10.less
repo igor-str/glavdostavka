@@ -1,0 +1,55 @@
+@col-section-10-h3: #333333;
+
+.bg-for-section-10 {
+  h3 {
+    color: @col-section-10-h3;
+    font-weight: 500;
+    font-size: 30px;
+    position: relative;
+    padding: 35px 0 45px 0;
+    margin-bottom: 0;
+    &:after {
+      content: '';
+      width: 130px;
+      border: 2px solid #9f1b1b;
+      position: absolute;
+      bottom: 30px;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+    }
+  }// <----- <h3> ----->
+  .wrap-review {
+    padding: 10px 10px 80px 10px;
+    .wrap-head-review {
+      display: flex;
+      flex-direction: row;
+      padding-bottom: 20px;
+      img {
+        margin-left: 10px;
+      }
+      h4 {
+        align-self: flex-end;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 700;
+        margin-bottom: 0;
+        position: relative;
+        &:after {
+          content: '';
+          width: 55px;
+          border: 2px solid #9f1b1b;
+          position: absolute;
+          bottom: -10px;
+          left: 0;
+          right: 0;
+          margin: 0 auto;
+        }
+      }// <----- <h4> ----->
+      p {
+        font-size: 15px;
+        font-style: italic;
+      }
+    }// <----- .wrap-head-review ----->
+  }// <----- .wrap-review ----->
+}// <----- .bg-for-section-10 ----->

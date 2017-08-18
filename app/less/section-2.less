@@ -1,0 +1,92 @@
+// basis colors header
+@box-col-section-2: #f0f0f0;
+@bg-col-section-2: #f9f9f9;
+@color-h3-section-2: #333333;
+@color-hover-section-2: #9f1b1b;
+@color-border-section-2: #c6c6c6;
+@color-text-section-2: #555555;
+
+// size text elem site
+@text-size-header: 15px;
+
+// <----- end basis style for header ----->
+
+
+.bg-for-section-2 {
+  background-color: @bg-col-section-2;
+}
+
+.wrapper-box-item-1 {
+  padding-top: 40px;
+  .box-item {
+    background-color: @box-col-section-2;
+    &:nth-child(1) {
+      background: url("../css/bg-img/bg-box-1.png") no-repeat 15px @box-col-section-2;
+    }
+    &:nth-child(2) {
+      background: url("../css/bg-img/bg-box-2.png") no-repeat 15px @box-col-section-2;
+    }
+    &:nth-child(3) {
+      background: url("../css/bg-img/bg-box-3.png") no-repeat 15px @box-col-section-2;
+    }
+  }
+}// <----- .wrapper-box-item-1 ----->
+
+.wrapper-box-item-2 {
+  padding: 30px 0 50px 0;
+  .box-item {
+    background-color: @box-col-section-2;
+    &:nth-child(1) {
+      background: url("../css/bg-img/bg-box-4.png") no-repeat 15px @box-col-section-2;
+    }
+    &:nth-child(2) {
+      background: url("../css/bg-img/bg-box-5.png") no-repeat 15px @box-col-section-2;
+    }
+  }
+}// <----- .wrapper-box-item-2 ----->
+
+.box-item {
+  background-color: @box-col-section-2;
+  padding: 0 25px 25px 80px;
+  border: 1px dashed @color-border-section-2;
+  h3 {
+    a {
+      font-size: 16px;
+      line-height: 55px;
+      color: @color-h3-section-2;
+      font-weight: 700;
+      text-decoration: none;
+      transition: 0.5s;
+      &:hover {
+        color: @color-hover-section-2;
+      }
+    }// <----- <a> ----->
+  }// <----- <h3> ----->
+  .desc-box-item {
+    font-size: 13px;
+    line-height: 18px;
+    color: @color-text-section-2;
+    position: relative;
+    margin: 0;
+    &:before {
+      content: '';
+      width: 43px;
+      border: 2px solid @color-hover-section-2;
+      position: absolute;
+      top: -10px;
+      animation: fadein 2s;
+    }
+  }// <----- .desc-box-item ----->
+  &:hover {
+    transition: all 1s;
+    .desc-box-item {
+      &:before {
+        content: '';
+        width: 43px;
+        border: 2px solid @color-text-section-2;
+        position: absolute;
+        right: 20px;
+      }
+    }
+  }// <----- :hover ----->
+}// <----- .box-item ----->

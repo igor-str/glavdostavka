@@ -1,0 +1,140 @@
+// basis colors header
+@text-col-header: #333333;
+@bg-color-header: #f9f9f9;
+@bg-color-button: #9f1b1b;
+@bg-color-hover: #9f1b1b;
+
+// size text elem site
+@text-size-header: 15px;
+
+// <----- end basis style for header ----->
+
+.header-site {
+  .navbar {
+    .menu-popup {
+      background: url("../css/bg-img/gamburger-menu.png") no-repeat center;
+      min-width: 20px;
+      height: 14px;
+    }
+    .container-popup{
+      //width:200px;
+      //height:150px;
+      //background-color: #ccc;
+      //margin:0px auto;
+      //padding:10px;
+      //font-size:30px;
+      //color: #fff;
+    }
+    .popup{
+      min-width:100vw;
+      min-height:100vh;
+      //background-color: rgba(0,0,0,0.7);
+      background: rgb(255,93,177); /* Old browsers */
+      background: -moz-linear-gradient(-45deg, rgba(255, 78, 6,0.7) 0%, rgba(205,2,232,0.7) 100%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(-45deg, rgba(255, 78, 6,0.7) 0%,rgba(205,2,232,0.7) 100%); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(135deg, rgba(255, 78, 6, 0.7) 0%,rgba(205,2,232,0.7) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      overflow:hidden;
+      position:fixed;
+      top: 0;
+      left: 0;
+      z-index: 1001;
+    }
+    .popup-content{
+      position: relative;
+      display: flex;
+      align-content: center;
+      align-items: center;
+      .close-popup {
+        position: absolute;
+        top: 10px;
+        right: 25px;
+        background: url("../css/bg-img/close_popup.png") no-repeat center;
+        min-width: 33px;
+        min-height: 33px;
+      }
+      ul {
+        list-style: none;
+        margin: 12vh 0 0 12vh;
+        padding: 0;
+        color: #fff;
+        li {
+          &:first-child {
+            font-size: 1.2em;
+            text-transform: uppercase;
+          }
+          a {
+            color: #fff;
+            text-decoration: none;
+            transition: 0.5s;
+            &:hover {
+              color: @bg-color-hover;
+            }
+          }
+        }
+      }
+    }
+
+
+    .navbar-nav {
+      li {
+        position: relative;
+        &:after {
+          content: ".";
+          font-size: 23px;
+          position: absolute;
+          top: 15px;
+          left: 9px;
+        }
+        &:nth-child(even) {
+          border-left: dotted @text-col-header 1px;
+          border-right: dotted @text-col-header 1px;
+        }
+      }
+      a {
+        color: #333333;
+        transition: 0.5s;
+        position: relative;
+        &:hover {
+          color: @bg-color-button;
+        }
+      }
+    }// <----- .navbar-nav ----->
+    .wrapper-phone {
+      min-width: 170px;
+      a {
+        font-size: 19px;
+        line-height: 24px;
+        .phone-code {
+          color: #9f1b1b;
+        }
+        .phone-number {
+          color: #333333;
+        }
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }// <----- .wrapper-phone ----->
+    .user-mini {
+      display: none;
+    }
+    .wrapper-log-in {
+      .log-in {
+        min-width: 123px;
+        height: 45px;
+        border-radius: 50px;
+        background-color: @bg-color-button;
+        border: solid 1px @bg-color-button;
+        text-transform: uppercase;
+        font-size: 13px;
+        line-height: 22px;
+        color: #fff;
+        transition: 0.5s;
+        &:hover {
+          background-color: transparent;
+          color: @text-col-header;
+        }
+      }
+    }
+  }// <----- .navbar ----->
+}// <----- .header-site ----->

@@ -1,0 +1,60 @@
+.bg-for-section-10 h3 {
+  color: #333333;
+  font-weight: 500;
+  font-size: 30px;
+  position: relative;
+  padding: 35px 0 45px 0;
+  margin-bottom: 0;
+}
+.bg-for-section-10 h3:after {
+  content: '';
+  width: 130px;
+  border: 2px solid #9f1b1b;
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.bg-for-section-10 .wrap-review {
+  padding: 10px 10px 80px 10px;
+}
+.bg-for-section-10 .wrap-review .wrap-head-review {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-bottom: 20px;
+}
+.bg-for-section-10 .wrap-review .wrap-head-review img {
+  margin-left: 10px;
+}
+.bg-for-section-10 .wrap-review .wrap-head-review h4 {
+  -webkit-align-self: flex-end;
+      -ms-flex-item-align: end;
+          align-self: flex-end;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-bottom: 0;
+  position: relative;
+}
+.bg-for-section-10 .wrap-review .wrap-head-review h4:after {
+  content: '';
+  width: 55px;
+  border: 2px solid #9f1b1b;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.bg-for-section-10 .wrap-review .wrap-head-review p {
+  font-size: 15px;
+  font-style: italic;
+}

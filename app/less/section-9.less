@@ -1,0 +1,110 @@
+@bg-col-section-9: #f9f9f9;
+@text-col-section-9: #3f3f3f;
+@border-col-section-9: #c7c7c7;
+@hover-col-section-9: #9f1b1b;
+
+.bg-for-section-9 {
+  background-color: @bg-col-section-9;
+  h3 {
+    color: @text-col-section-9;
+    font-weight: 500;
+    font-size: 30px;
+    position: relative;
+    padding: 35px 0 45px 0;
+    margin-bottom: 0;
+    &:after {
+      content: '';
+      width: 130px;
+      border: 2px solid #9f1b1b;
+      position: absolute;
+      bottom: 30px;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+    }
+  }// <----- <h3> ----->
+  .box-wrap-section-9 {
+    padding: 15px 0 65px 0;
+    .w-100 {
+      height: 30px;
+    }
+    .box-item-section-9 {
+      border: 2px solid @border-col-section-9;
+      display: flex;
+      flex-direction: column;
+      padding: 10px 0 10px 100px;
+      transition: 0.5s;
+      strong {
+        font-size: 36px;
+        line-height: 40px;
+        text-transform: uppercase;
+      }
+      span {
+        font-size: 16px;
+        color: #555555;
+      }
+      &:nth-child(1) {
+        background: url("../css/bg-img/bg-box-item-section-9-1.png") no-repeat 10px transparent;
+        position: relative;
+        &:after {
+          background: url("../css/bg-img/border-1.png") no-repeat;
+          position: absolute;
+          content: '';
+          height: 84px;
+          width: 189px;
+          right: -192px;
+          bottom: -31px;
+        }
+      }// <----- &:nth-child(1) ----->
+      &:nth-child(2) {
+        background: url("../css/bg-img/bg-box-item-section-9-2.png") no-repeat 10px transparent;
+        position: relative;
+        &:after {
+          background: url("../css/bg-img/border-1.png") no-repeat;
+          position: absolute;
+          content: '';
+          height: 84px;
+          width: 189px;
+          left: -192px;
+          bottom: -31px;
+          transform: scale(-1,1);
+        }
+      }// <----- &:nth-child(2) ----->
+      &:nth-child(4) {
+        border: 2px dashed @border-col-section-9;
+        background: url("../css/bg-img/bg-box-item-section-9-3.png") no-repeat 10px transparent;
+        position: relative;
+        &:after {
+          background: url("../css/bg-img/border-1.png") no-repeat;
+          position: absolute;
+          content: '';
+          height: 84px;
+          width: 189px;
+          right: -192px;
+          bottom: -31px;
+        }
+      }// <----- &:nth-child(4) ----->
+      &:nth-child(6) {
+        background: url("../css/bg-img/bg-box-item-section-9-4.png") no-repeat 10px transparent;
+        position: relative;
+        &:after {
+          background: url("../css/bg-img/border-1.png") no-repeat;
+          position: absolute;
+          content: '';
+          height: 84px;
+          width: 189px;
+          right: 0;
+          top: -88px;
+          transform: scale(-1,1);
+        }
+      }// <----- &:nth-child(6) ----->
+      &:nth-child(7) {
+        background: url("../css/bg-img/bg-box-item-section-9-5.png") no-repeat 10px transparent;
+      }
+      &:hover {
+        border-color: @hover-col-section-9;
+        background-color: #ececec;
+      }
+    }// <----- .box-item-section-9 ----->
+  }// <----- .box-wrap-section-9 ----->
+}

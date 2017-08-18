@@ -1,0 +1,127 @@
+.header-site .navbar .menu-popup {
+  background: url("../css/bg-img/gamburger-menu.png") no-repeat center;
+  min-width: 20px;
+  height: 14px;
+}
+.header-site .navbar .popup {
+  min-width: 100vw;
+  min-height: 100vh;
+  background: #ff5db1;
+  /* Old browsers */
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, rgba(255, 78, 6, 0.7) 0%, rgba(205, 2, 232, 0.7) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: -webkit-linear-gradient(315deg, rgba(255, 78, 6, 0.7) 0%, rgba(205, 2, 232, 0.7) 100%);
+  background: -o-linear-gradient(315deg, rgba(255, 78, 6, 0.7) 0%, rgba(205, 2, 232, 0.7) 100%);
+  background: linear-gradient(135deg, rgba(255, 78, 6, 0.7) 0%, rgba(205, 2, 232, 0.7) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1001;
+}
+.header-site .navbar .popup-content {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header-site .navbar .popup-content .close-popup {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  background: url("../css/bg-img/close_popup.png") no-repeat center;
+  min-width: 33px;
+  min-height: 33px;
+}
+.header-site .navbar .popup-content ul {
+  list-style: none;
+  margin: 12vh 0 0 12vh;
+  padding: 0;
+  color: #fff;
+}
+.header-site .navbar .popup-content ul li:first-child {
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+.header-site .navbar .popup-content ul li a {
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.header-site .navbar .popup-content ul li a:hover {
+  color: #9f1b1b;
+}
+.header-site .navbar .navbar-nav li {
+  position: relative;
+}
+.header-site .navbar .navbar-nav li:after {
+  content: ".";
+  font-size: 23px;
+  position: absolute;
+  top: 15px;
+  left: 9px;
+}
+.header-site .navbar .navbar-nav li:nth-child(even) {
+  border-left: dotted #333333 1px;
+  border-right: dotted #333333 1px;
+}
+.header-site .navbar .navbar-nav a {
+  color: #333333;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  position: relative;
+}
+.header-site .navbar .navbar-nav a:hover {
+  color: #9f1b1b;
+}
+.header-site .navbar .wrapper-phone {
+  min-width: 170px;
+}
+.header-site .navbar .wrapper-phone a {
+  font-size: 19px;
+  line-height: 24px;
+}
+.header-site .navbar .wrapper-phone a .phone-code {
+  color: #9f1b1b;
+}
+.header-site .navbar .wrapper-phone a .phone-number {
+  color: #333333;
+}
+.header-site .navbar .wrapper-phone a:hover {
+  text-decoration: none;
+}
+.header-site .navbar .user-mini {
+  display: none;
+}
+.header-site .navbar .wrapper-log-in .log-in {
+  min-width: 123px;
+  height: 45px;
+  -webkit-border-radius: 50px;
+          border-radius: 50px;
+  background-color: #9f1b1b;
+  border: solid 1px #9f1b1b;
+  text-transform: uppercase;
+  font-size: 13px;
+  line-height: 22px;
+  color: #fff;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.header-site .navbar .wrapper-log-in .log-in:hover {
+  background-color: transparent;
+  color: #333333;
+}

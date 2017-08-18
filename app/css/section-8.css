@@ -1,0 +1,38 @@
+.bg-for-section-8 {
+  background-image: url("../css/bg-img/bg-section-8.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  height: 258px;
+  width: auto;
+}
+.bg-for-section-8 .wrapper-section-8 {
+  padding-top: 75px;
+}
+.bg-for-section-8 .box-item-section-8 {
+  color: #fff;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+  border: 1px solid #fff;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  padding: 40px 0;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.bg-for-section-8 .box-item-section-8:nth-child(1) {
+  background: url("../css/bg-img/bg-stoimost.png") no-repeat 10px transparent;
+}
+.bg-for-section-8 .box-item-section-8:nth-child(2) {
+  background: url("../css/bg-img/bg-zayavka.png") no-repeat 10px transparent;
+}
+.bg-for-section-8 .box-item-section-8:nth-child(3) {
+  background: url("../css/bg-img/bg-oplatit.png") no-repeat 10px transparent;
+}
+.bg-for-section-8 .box-item-section-8:nth-child(4) {
+  background: url("../css/bg-img/bg-otsledit.png") no-repeat 10px transparent;
+}
+.bg-for-section-8 .box-item-section-8:hover {
+  background-color: #9f1b1b;
+}

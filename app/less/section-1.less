@@ -1,0 +1,190 @@
+// basis colors header
+@text-col-section-1: #333333;
+@bg-color-section-1: #f9f9f9;
+@bg-color-button: #9f1b1b;
+@bg-color-hover: #9f1b1b;
+@bg-color-border: #fff;
+
+// size text elem site
+@text-size-section-1: 16px;
+
+// <----- end basis style for header ----->
+
+.bg-for-section-1 {
+  background-image: url("../css/bg-img/bg-glavn-ekran.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  height: 500px;
+  width: auto;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  color: #f9f9f9;
+  padding-top: 45px;
+  margin-bottom: 15px;
+}
+
+.desc-h1 {
+  text-align: center;
+  line-height: 24px;
+  margin: 0;
+  color: #f9f9f9;
+  padding: 0 23%;
+}
+
+.wrapper-form-section-1 {
+  display: flex;
+  align-content: space-between;
+  margin-top: 50px;
+  .search-cargo-wrap {
+    //border: solid 2px @bg-color-border;
+    background: url('../css/bg-img/small-border.png') no-repeat top;
+    padding: 35px 2rem 0 2rem;
+    position: relative;
+    .search-cargo-box {
+      display: flex;
+      flex-direction: column;
+      align-content: space-between;
+      align-items: center;
+      input {
+        background-color: @bg-color-border;
+        color: #555555;
+        border-radius: 50px;
+        font-size: 13px;
+        height: 45px;
+        text-align: center;
+        width: 225px;
+      }// <----- <input> ----->
+      label {
+        color: @bg-color-border;
+        font-size: 13px;
+        text-align: center;
+        line-height: 24px;
+      }// <----- <label> ----->
+      button {
+        background-color: transparent;
+        color: @bg-color-border;
+        border: solid 1px @bg-color-border;
+        border-radius: 50px;
+        font-size: 16px;
+        height: 55px;
+        text-align: center;
+        width: 250px;
+        transition: 0.5s;
+        &:hover {
+          background-color: @bg-color-button;
+          color: @bg-color-border;
+          border: solid 1px @bg-color-button;
+        }
+      }// <----- <button> ----->
+    }// <----- .search-cargo-box  ----->
+    h3 {
+      position: absolute;
+      top: -1rem;
+      left: 0;
+      right: 0;
+      color: @bg-color-border;
+      text-transform: uppercase;
+      margin: 0;
+      padding: 0 15px;
+    }// <----- <h3> ----->
+  }// <----- .search-cargo-wrap ----->
+  .calc-price {
+    background: url('../css/bg-img/big-border-1.png') no-repeat top;
+    //border: solid 2px @bg-color-border;
+    padding: 50px 2rem 0 2rem;
+    h3 {
+      position: absolute;
+      top: -1rem;
+      left: 0;
+      right: 0;
+      color: @bg-color-border;
+      text-transform: uppercase;
+      margin: 0;
+      padding: 0 15px;
+    }
+    .form-calc-box {
+      display: flex;
+      flex-direction: column;
+      align-content: space-around;
+      .wrapper-form-carry {
+        display: flex;
+        flex-direction: row;
+        align-content: space-between;
+        input {
+          background: url("../css/bg-img/bg-town.png") no-repeat 10px @bg-color-border;
+          padding-left: 20px;
+          color: #555555;
+          border-radius: 50px;
+          font-size: 13px;
+          height: 45px;
+          text-align: center;
+          width: 310px;
+          margin: 0 5px 0 5px;
+        }
+        .change-town {
+          background: url("../css/bg-img/cange-town.png") no-repeat center;
+          width: 14px;
+          height: 17px;
+          align-self: center;
+          margin: 0;
+        }
+      }// <----- .wrapper-form-carry ----->
+      .wrapper-form-calc {
+        display: flex;
+        align-content: flex-start;
+        margin-top: 30px;
+        input {
+          color: #555555;
+          border-radius: 50px;
+          font-size: 13px;
+          height: 45px;
+          text-align: center;
+          width: 110px;
+          margin-left: 5px;
+        }
+        .result-calc {
+          line-height: 45px;
+          margin-left: 15px;
+          font-size: 36px;
+          color: @bg-color-border;
+        }
+        .wrapper-size-cargo {
+          display: flex;
+          flex-direction: column;
+          input {
+            width: 190px;
+            margin-left: 15px;
+          }
+          label {
+            color: @bg-color-border;
+            text-decoration: underline;
+            font-size: 13px;
+            line-height: 24px;
+            margin: 0 0 15px 15px;
+            align-self: center;
+          }
+        }
+      }// <----- .wrapper-form-calc ----->
+    }// <----- .form-calc-box ----->
+    button {
+      background-color: @bg-color-button;
+      color: @bg-color-border;
+      border: solid 1px @bg-color-button;
+      border-radius: 50px;
+      font-size: 16px;
+      height: 55px;
+      text-align: center;
+      width: 250px;
+      align-self: center;
+      transition: 0.5s;
+      &:hover {
+        background-color: @bg-color-border;
+        color: @text-col-section-1;
+      }
+    }// <----- <button> ----->
+  }// <----- .calc-price ----->
+}// <----- .wrapper-form-section-1 ----->

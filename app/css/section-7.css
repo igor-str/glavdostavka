@@ -1,0 +1,52 @@
+.bg-for-section-7 h3 {
+  color: #333333;
+  font-weight: 500;
+  font-size: 30px;
+  position: relative;
+  padding: 35px 0 45px 0;
+  margin-bottom: 0;
+}
+.bg-for-section-7 h3:after {
+  content: '';
+  width: 130px;
+  border: 2px solid #9f1b1b;
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.bg-for-section-7 .carousel-item ul {
+  margin: 0;
+}
+.bg-for-section-7 .carousel-item ul li {
+  list-style: none;
+  font-size: 14px;
+  line-height: 20px;
+}
+.bg-for-section-7 .carousel-item ul li a {
+  color: #9f1b1b;
+  font-size: 16px;
+  font-weight: 700;
+}
+.bg-for-section-7 .read-mre-section-7 {
+  border: 1px solid #9f1b1b;
+  -webkit-border-radius: 50px;
+          border-radius: 50px;
+  line-height: 45px;
+  margin: 35px 43% 35px 43%;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.bg-for-section-7 .read-mre-section-7 a {
+  text-decoration: none;
+  color: #9f1b1b;
+  font-size: 14px;
+}
+.bg-for-section-7 .read-mre-section-7:hover {
+  background-color: #9f1b1b;
+}
+.bg-for-section-7 .read-mre-section-7:hover a {
+  color: #fff;
+}

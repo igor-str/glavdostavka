@@ -1,0 +1,68 @@
+@bg-col-section-4: #f9f9f9;
+@col-section-4-h3: #333333;
+@btn-section-4: #9f1b1b;
+
+.bg-for-section-4 {
+  background-color: @bg-col-section-4;
+}
+
+.wrapper-content-section-4 {
+  h3 {
+    color: @col-section-4-h3;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 24px;
+    padding: 50px 0;
+    position: relative;
+    margin-bottom: 0;
+    &:after {
+      content: '';
+      width: 130px;
+      border: 2px solid #9f1b1b;
+      position: absolute;
+      bottom: 30px;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+    }
+  }// <----- <h3> ----->
+  label {
+    font-size: 18px;
+    padding-right: 10px;
+  }// <----- < label> ----->
+  input {
+    color: #fff;
+    border: solid 1px #9f1b1b;
+    border-radius: 50px;
+    font-size: 18px;
+    height: 55px;
+    min-width: 22rem;
+  }// <----- <input> ----->
+  button {
+    background-color: @btn-section-4;
+    color: #fff;
+    border: solid 1px @btn-section-4;
+    border-radius: 50px;
+    font-size: 16px;
+    height: 55px;
+    text-align: center;
+    width: 190px;
+    transition: 0.5s;
+    font-weight: 400;
+    &:hover {
+      background-color: transparent;
+      color: #3f3f3f;
+    }
+  }// <----- <button> ----->
+}// <----- ..wrapper-content-section-4 ----->
+.wrapper-example-q {
+  font-size: 12px;
+  margin-left: -3rem;
+  padding-bottom: 50px;
+  span {
+    text-decoration: underline dashed;
+    &:nth-child(1) {
+      text-decoration: none;
+    }
+  }
+}

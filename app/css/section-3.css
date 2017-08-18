@@ -1,0 +1,48 @@
+.wrapper-map {
+  padding: 30px 0;
+}
+.wrapper-map .map {
+  max-width: 100%;
+  height: auto;
+}
+.wrapper-map .desc-map {
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+}
+.wrapper-map .desc-map h4 {
+  font-size: 36px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #3f3f3f;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.wrapper-map .desc-map h4 span {
+  color: #9f1b1b;
+}
+.wrapper-map .desc-map p {
+  color: #333333;
+  font-size: 24px;
+  line-height: 30px;
+}
+.wrapper-map .desc-map button {
+  background-color: #9f1b1b;
+  color: #fff;
+  border: solid 1px #9f1b1b;
+  -webkit-border-radius: 50px;
+          border-radius: 50px;
+  font-size: 16px;
+  height: 55px;
+  text-align: center;
+  width: 190px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.wrapper-map .desc-map button:hover {
+  background-color: transparent;
+  color: #3f3f3f;
+}
